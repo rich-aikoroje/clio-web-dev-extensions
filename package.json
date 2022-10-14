@@ -28,5 +28,9 @@
     "VisualStudioExptTeam.intellicode-api-usage-examples", 
     "VisualStudioExptTeam.vscodeintellicode", 
     "Vue.volar"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rich-aikoroje/clio-web-dev-extensions.git"
+  }
 }
