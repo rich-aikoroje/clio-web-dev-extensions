@@ -3,31 +3,22 @@
   "displayName": "Clio Web Dev Extensions",
   "description": "Extension pack for web development at Clio",
   "version": "0.0.1",
+  "publisher": "Clio",
   "engines": {
     "vscode": "^1.72.0"
   },
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
-    "aki77.rails-db-schema", 
-    "aki77.rails-routes", 
-    "bung87.rails", 
-    "bung87.vscode-gemfile", 
+  "extensionPack": [
+    "esbenp.prettier-vscode",
+    "rebornix.ruby",
+    "castwide.solargraph",
+    "misogi.ruby-rubocop",
+    "davidpallinder.rails-test-runner",
+    "ms-vsliveshare.vsliveshare",
     "eamodio.gitlens", 
-    "firefox-devtools.vscode-firefox-debug", 
-    "GitHub.codespaces", 
-    "Gruntfuggly.todo-tree", 
-    "ionutvmi.spacegray-vscode", 
-    "ms-azuretools.vscode-docker", 
-    "ms-vscode-remote.remote-containers", 
-    "msjsdiag.debugger-for-chrome", 
-    "sianglim.slim", 
-    "streetsidesoftware.code-spell-checker", 
-    "usernamehw.indent-one-space", 
-    "VisualStudioExptTeam.intellicode-api-usage-examples", 
-    "VisualStudioExptTeam.vscodeintellicode", 
-    "Vue.volar"
+    "GitHub.codespaces"
   ],
   "repository": {
     "type": "git",
