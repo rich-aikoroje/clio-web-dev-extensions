@@ -17,11 +17,13 @@
 
 ## Install your extension
 
-#### Option 1
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
-#### Option 2 - Installing from a vsix
-- `npm install -g vsce`
+#### Option 1 - Using the install script
+- `git clone https://github.com/rich-aikoroje/clio-web-dev-extensions.git`
+- `cd clio-web-dev-extensions && sh ./install.sh`
+
+#### Option 2
+- `git clone https://github.com/rich-aikoroje/clio-web-dev-extensions.git`
+- `cd clio-web-dev-extensions && npm install -g vsce`
 - `vsce package -o clio-web-dev-extensions.vsix`
 - `echo 'export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"' >> ~/.bash_profile`
  (switch ~/.bash_profile to ~/.zshrc if running on a macOS v10.15 (Catalina) or later.)
