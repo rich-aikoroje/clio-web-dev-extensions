@@ -23,6 +23,6 @@
 #### Option 2 - Installing from a vsix
 - `npm install -g vsce`
 - `vsce package -o clio-web-dev-extensions.vsix`
--`echo 'export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"' >> ~/.bash_profile`
+- `echo 'export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"' >> ~/.bash_profile`
  (switch ~/.bash_profile to ~/.zshrc if running on a macOS v10.15 (Catalina) or later.)
 - `code --install-extension clio-web-dev-extensions.vsix`
