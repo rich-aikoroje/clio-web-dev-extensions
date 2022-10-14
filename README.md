@@ -15,7 +15,7 @@
 * You can relaunch the extension from the debug toolbar after making changes to the files listed above.
 * You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
 
-## Install your extension
+## Install the extension pack
 
 #### Option 1 - Using the install script
 - `git clone https://github.com/rich-aikoroje/clio-web-dev-extensions.git`
