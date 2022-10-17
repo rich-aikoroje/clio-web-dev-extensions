@@ -2,6 +2,7 @@
 An extension pack for web development at Clio
 
 ## Usage
+* Open the command palette (CMD+Shift+P on Mac and CTRL+Shift+P on Windows) and search for Shell Command. run Install 'code' command in PATH.
 * `git clone https://github.com/rich-aikoroje/clio-web-dev-extensions.git`
 * `cd clio-web-dev-extensions && sh ./install.sh`
 
